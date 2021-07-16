@@ -1,0 +1,280 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+font-family:san-serif;
+}
+
+#nav-bar
+{
+	position:sticky;
+	top:0;
+	z-index:10;
+}
+
+.navbar
+{
+	background-image: linear-gradient(to right,#686868,#404040);
+	padding:0 !important;
+}
+
+.navbar h1{
+	padding: 3.5px;
+	margin-top: 0.5px;
+	color: white;
+	font-weight: 500;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.navbar i{
+	margin-left: 3px;
+	padding: 3.5px;
+	color: white;
+	font-weight: 600;
+	font-size: 26px;
+}
+
+.navbar li a
+{
+	color:#fff !important;
+	font-weight:600;
+	text-align:left;
+	margin-right:10px;
+	padding-left:10px;
+	float:right;
+	text-transform:uppercase;
+}
+
+.fa-bars
+{
+	margin-right:10px;
+	font-size:30px;
+	color:#fff !important;
+}
+
+.navbar-toggler
+{
+	outline:none !important;
+}
+
+
+/*!--------------------------------------------------------------BANNER SECTION------------------------------------------------------------------------*/
+
+
+.banner
+{
+	background-image:linear-gradient(to right,#686868,#404040);
+	color:#fff;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+.promo-title
+{
+	font-size:45px;
+	font-weight:600;
+	text-transform:uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-top:50px;
+	margin-bottom: 40px;
+}
+
+.mission p{
+	text-align: center;
+	padding: 5px 100px;
+}
+.mission{
+	margin-bottom: 50px;
+}
+/*----------------------------------------Features section--------------------------------------------*/
+#Features
+{
+	padding:40px 0;
+}
+
+.Feature-img
+{
+	padding-top:50px;
+	padding-left:10px;
+	height:150px;
+	width:150px;
+}
+
+.Features h4
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.title
+{
+	padding:10px;
+	margin-top:20px;
+}
+
+.title::before
+{
+	content:'';
+	background:#a0a0a0 !important;
+	height:5px;
+	width:175px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+
+.title::after
+{
+	content:'';
+	background:#a0a0a0 !important;
+	height:10px;
+	width:60px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:25px;
+	display:block;
+	transform:translatey(8px);
+}
+
+/*-------------------------------------about us--------------------------------------------------*/
+/* #about-us
+{
+	padding:30px;
+} */
+
+.about-us p{
+	text-align: center;
+	margin-top: 30px;
+}
+
+/*-----------------------------------Take-a-Look----------------------------------------*/
+#Take-a-Look
+{
+	margin:10px 0;
+}
+
+.video img{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+/*-------------------------------------social media---------------------------------------*/
+
+#social-media
+{
+	background:#f8f9fa;
+	margin-top: 50px;
+	padding:100px 0;
+}
+
+#social-media p
+{
+	text-transform:uppercase;
+	font-size:36px;
+	font-weight:500;
+	margin-bottom:30px;
+}
+
+.icons img
+{
+	height:40px;
+	width:40px;
+	transition:0.5s;
+}
+
+.icons a:hover img
+{
+	transform:translatey(-10px);
+}
+
+/*--------------------------------------------footer-----------------------------------------------------*/
+
+#footer
+{
+	background-image:linear-gradient(to right,#686868,#404040);
+	color:#fff;
+}
+
+
+.footer-box1{
+	text-align: center;
+	width: 2px;
+	
+}
+
+.footer-box i{
+	padding: 3.5px;
+	color: white;
+	font-weight: 600;
+	font-size: 26px;
+}
+
+.footer-box h1{
+	padding: 3.5px;
+	color: white;
+	font-weight: 500;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.footer-box .fa
+{
+	margin-right:8px;
+	font-size:25px;
+	height:40px;
+	width:40px;
+	text-align:center;
+	padding-top:7px;
+	border-radius:50%;
+	background-image:linear-gradient(to right,#686868,#404040);
+}
+
+.foot
+{
+	font-size:20px;
+	margin-top:20px;
+}
+
+#footer .btn-primary
+{
+	box-shadow:none;
+	margin-top:30px;
+	margin-bottom:45px;
+	padding:8px 25px;
+	border:none;
+	border-radius:15px;
+	background-image:linear-gradient(to right,#686868,#404040);
+}
+
+.footer-box .form-control
+{
+	box-shadow:none !important;
+	border:none;
+	border-radius:5px;
+	margin-top:25px;
+	max-width:250px;
+}
+
+hr
+{
+	background-color:#fff;
+}
+
+.copyright
+{
+	text-align:center;
+	padding-bottom:20px;
+	font-size:10px;
+}
+
+
+
+
+
+
